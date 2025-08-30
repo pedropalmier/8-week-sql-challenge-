@@ -1,6 +1,8 @@
 # 🍜 Case Study #1 – Danny's Diner
 <p align="left"><img src="https://8weeksqlchallenge.com/images/case-study-designs/1.png" width=60% height=60% style="border-radius: 8px">
 
+*See the original case study statement [here](https://8weeksqlchallenge.com/case-study-1/).*
+
 ## 💎 Business Context 
 Danny’s Diner is a small Japanese restaurant that opened at the start of 2021. The menu offers three simple dishes: sushi, curry, and ramen.
 
@@ -8,7 +10,7 @@ Danny’s Diner is a small Japanese restaurant that opened at the start of 2021.
 Danny needed support to analyze customer behavior using the limited data he had collected over time. This case aimed to help him understand his customers and evaluate the impact of the loyalty program by answering a series of questions based on the available data.
 
 #### Entity Relationship Diagram
-The relationship diagram below illustrates the three core tables used in this case
+The relationship diagram below illustrates the three core tables used in this case. *View the complete schema [here](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/schema.sql).*
 
 <p align="left">
 <img src="https://i.ibb.co/0RTNzzxM/ERD-dannys-diner.png" width=60% height=60% style="border-radius: 8px">
@@ -27,7 +29,7 @@ The relationship diagram below illustrates the three core tables used in this ca
 9. [If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/README.md#9-if-each-1-spent-equates-to-10-points-and-sushi-has-a-2x-points-multiplier---how-many-points-would-each-customer-have)
 10. [In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/README.md#10-in-the-first-week-after-a-customer-joins-the-program-including-their-join-date-they-earn-2x-points-on-all-items-not-just-sushi---how-many-points-do-customer-a-and-b-have-at-the-end-of-january)
 ## 🎯 My Solution
-
+*View the complete syntax [here](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/solution.sql).*
 ### 1. What is the total amount each customer spent at the restaurant?
 
 | customer\_id | total\_amount |
