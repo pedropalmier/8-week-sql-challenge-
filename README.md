@@ -1,9 +1,15 @@
-Elevator pitch de 2-3 linhas sobre você como PM data-driven
-Overview dos cases resolvidos com links diretos
-Stack técnica (SQL, ferramentas de análise)
-Link para seu LinkedIn/portfolio
----
+# 🔥🗓️ 8 Week SQL Challenge
+This repository contains my solutions using PostgreSQL for the [8 Week SQL Challenge](https://8weeksqlchallenge.com/), a collection of case studies with various business problems to be explored and solved using SQL.  
 
-# 🏃🏻‍♂️‍➡️ 🗓️ 8 Week SQL Challenge
-This repository contains my solutions for the [8 Week SQL Challenge](https://8weeksqlchallenge.com/), in which many different databases were made available and the goal was to explore and to solve business problems with SQL language. In this case, I chose to solve the challenges with PostgreSQL.
+> Thanks to [@MarianaMannes](https://github.com/marianamannes) for the recommendation, and to [@DannyMa](https://github.com/datawithdanny) for the well-crafted cases. ✌️
 
+***👏 Support!** If you liked this project, consider giving it a ⭐️!*
+
+## 🍜 Case Study #1 – Danny's Diner
+<p align="left"><img src="https://8weeksqlchallenge.com/images/case-study-designs/1.png" width=60% height=60% style="border-radius: 8px">
+
+Danny’s Diner is a small Japanese restaurant that needed help analyzing customer behavior and assessing the impact of its loyalty program. This case explores key business questions using simple transactional and membership data.
+
+[👉 Click here to see my solution](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/README.md)
+***
+🏃🏻‍♂️‍➡️ *More case study solutions coming soon!*
