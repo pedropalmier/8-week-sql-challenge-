@@ -386,10 +386,3 @@ GROUP BY
 ORDER BY
 	total_points DESC;
 ```
-
-***
-
----
-Annotations: 0,8441 SHA-256 20e5aa400f58025b4883aee5d388a7d3  
-@Pedro Palmier <ola@pedropalmier.com>: 0,8 495,5 566 731 1025,2 1255 1811 7717  
-...
