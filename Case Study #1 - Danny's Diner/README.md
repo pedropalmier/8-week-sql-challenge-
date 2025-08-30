@@ -1,20 +1,35 @@
-# [8 Week SQL Challenge](https://github.com/pedropalmier/8-week-sql-challenge) 
+# 🍜 Case Study #1 – Danny's Diner
+<p align="left"><img src="https://8weeksqlchallenge.com/images/case-study-designs/1.png" width=60% height=60% style="border-radius: 8px">
 
-# Case Study #1 – Danny's Diner
+## 💎 Business Context 
+Danny’s Diner is a small Japanese restaurant that opened at the start of 2021. The menu offers three simple dishes: sushi, curry, and ramen.
 
-## Business Context and Problem Statement
-In the beggining of 2021, Danny opened up a restaurant and now wants to answer some questions about the preferences of the costumers, including the pattern of visitis, their purchases and favorite menu items. 
+## ⚡️Problem Statement
+Danny needed support to analyze customer behavior using the limited data he had collected over time. This case aimed to help him understand his customers and evaluate the impact of the loyalty program by answering a series of questions based on the available data.
 
-There are three key datasets, which are represented by the relationshop diagram below.
+#### Entity Relationship Diagram
+The relationship diagram below illustrates the three core tables used in this case
+
+<p align="left">
+<img src="https://i.ibb.co/0RTNzzxM/ERD-dannys-diner.png" width=60% height=60% style="border-radius: 8px">
 
 
-<p align="center">
-<img src="https://i.ibb.co/Qf8gHWm/Captura-de-tela-2022-06-25-204656.png" width=60% height=60%>
 
-***
+## ❓Case Study Questions
+1. What is the total amount each customer spent at the restaurant?
+2. How many days has each customer visited the restaurant?
+3. What was the first item from the menu purchased by each customer?
+4. What is the most purchased item on the menu and how many times was it purchased by all customers?
+5. Which item was the most popular for each customer?
+6. Which item was purchased first by the customer after they became a member?
+7. Which item was purchased just before the customer became a member?
+8. What is the total items and amount spent for each member before they became a member?
+9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
+10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
+## 🎯 My Solution
 
-## Case Study Questions
 ### 1. What is the total amount each customer spent at the restaurant?
+
 | customer\_id | total\_amount |
 | ------------ | ------------- |
 | A            | 76            |
@@ -41,9 +56,10 @@ ORDER BY
 	total_amount DESC;
 ```
 
-***
+
 
 ### 2. How many days has each customer visited the restaurant?
+
 | customer\_id | visit\_count |
 | ------------ | ------------ |
 | B            | 6            |
@@ -69,7 +85,7 @@ ORDER BY
 	visit_count DESC;
 ```
 
-***
+
 
 ### 3. What was the first item from the menu purchased by each customer?
 | customer\_id | product\_name | order\_date |
@@ -112,8 +128,6 @@ ORDER BY
 	order_date;
 ```
 
-***
-
 ### 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
 | product\_id | product\_name | purchase\_count |
 | ----------- | ------------- | --------------- |
@@ -140,8 +154,6 @@ ORDER BY
 	purchase_count DESC
 LIMIT 1;
 ```
-
-***
 
 ### 5. Which item was the most popular for each customer?
 | customer\_id | product\_name | purchase\_count |
@@ -184,8 +196,6 @@ WHERE
 	popularity_rank = 1;
 ```
 
-***
-
 ### 6. Which item was purchased first by the customer after they became a member?
 | customer\_id | first\_item |
 | ------------ | ----------- |
@@ -224,8 +234,6 @@ WHERE
 	purchased_order = 1;
 ```
 
-***
-
 ### 7. Which item was purchased just before the customer became a member?
 | customer\_id | product\_name |
 | ------------ | ------------- |
@@ -263,8 +271,6 @@ WHERE
 	recency_rank = 1;
 ```
 
-***
-
 ### 8. What is the total items and amount spent for each member before they became a member?
 | customer\_id | total\_items | total\_amount |
 | ------------ | ------------ | ------------- |
@@ -295,8 +301,6 @@ GROUP BY
 ORDER BY
 	s.customer_id;
 ```
-
-***
 
 ### 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 | customer\_id | total\_points |
@@ -335,8 +339,6 @@ GROUP BY
 ORDER BY
 	total_points DESC;
 ```
-
-***
 
 ### 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 | customer\_id | total\_points |
