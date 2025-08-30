@@ -10,6 +10,6 @@ This repository contains my solutions using PostgreSQL for the [8 Week SQL Chall
 
 Danny’s Diner is a small Japanese restaurant that needed help analyzing customer behavior and assessing the impact of its loyalty program. This case explores key business questions using simple transactional and membership data.
 
-[👉 Click here to see my solution](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/README.md)
+**[👉 Click here to see my solution](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/README.md)**
 ***
 🏃🏻‍♂️‍➡️ *More case study solutions coming soon!*
