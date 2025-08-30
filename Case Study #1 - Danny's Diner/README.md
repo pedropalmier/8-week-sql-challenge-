@@ -16,16 +16,16 @@ The relationship diagram below illustrates the three core tables used in this ca
 
 
 ## ❓Case Study Questions
-1. What is the total amount each customer spent at the restaurant?
-2. How many days has each customer visited the restaurant?
-3. What was the first item from the menu purchased by each customer?
-4. What is the most purchased item on the menu and how many times was it purchased by all customers?
-5. Which item was the most popular for each customer?
-6. Which item was purchased first by the customer after they became a member?
-7. Which item was purchased just before the customer became a member?
-8. What is the total items and amount spent for each member before they became a member?
-9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
-10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
+1. [What is the total amount each customer spent at the restaurant?](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/README.md#1-what-is-the-total-amount-each-customer-spent-at-the-restaurant)
+2. [How many days has each customer visited the restaurant?](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/README.md#2-how-many-days-has-each-customer-visited-the-restaurant)
+3. [What was the first item from the menu purchased by each customer?](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/README.md#3-what-was-the-first-item-from-the-menu-purchased-by-each-customer)
+4. [What is the most purchased item on the menu and how many times was it purchased by all customers?](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/README.md#4-what-is-the-most-purchased-item-on-the-menu-and-how-many-times-was-it-purchased-by-all-customers)
+5. [Which item was the most popular for each customer?](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/README.md#5-which-item-was-the-most-popular-for-each-customer)
+6. [Which item was purchased first by the customer after they became a member?](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/README.md#6-which-item-was-purchased-first-by-the-customer-after-they-became-a-member)
+7. [Which item was purchased just before the customer became a member?](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/README.md#7-which-item-was-purchased-just-before-the-customer-became-a-member)
+8. [What is the total items and amount spent for each member before they became a member?](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/README.md#8-what-is-the-total-items-and-amount-spent-for-each-member-before-they-became-a-member)
+9. [If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/README.md#9-if-each-1-spent-equates-to-10-points-and-sushi-has-a-2x-points-multiplier---how-many-points-would-each-customer-have)
+10. [In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?](https://github.com/pedropalmier/8-week-sql-challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/README.md#10-in-the-first-week-after-a-customer-joins-the-program-including-their-join-date-they-earn-2x-points-on-all-items-not-just-sushi---how-many-points-do-customer-a-and-b-have-at-the-end-of-january)
 ## 🎯 My Solution
 
 ### 1. What is the total amount each customer spent at the restaurant?
